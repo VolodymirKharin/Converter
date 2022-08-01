@@ -6,10 +6,8 @@ import os
 
 
 class Mp4ToGif():
-    raw_html = ''
     name_video_out = ''
     name_gif = ''
-    html = ''
 
     def __init__(self, url):
         self.url = url
